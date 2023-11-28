@@ -1,0 +1,7 @@
+certifi @ file:///private/tmp/python-certifi-20231008-5412-1rk63p1/certifi-2023.7.22
+cffi @ file:///private/tmp/cffi-20231014-5454-1xfyd4s/cffi-1.16.0
+cryptography @ file:///private/tmp/python-cryptography-20231024-6215-1s33lvq/cryptography-41.0.5
+packaging @ file:///private/tmp/python-packaging-20231018-5228-nhvg0j/packaging-23.2
+pycparser @ file:///private/tmp/pycparser-20231013-5559-1dtd22y/pycparser-2.21
+PyYAML @ file:///private/tmp/pyyaml-20231018-5457-utbrds/PyYAML-6.0.1
+six==1.16.0

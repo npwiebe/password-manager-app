@@ -1,0 +1,18 @@
+DROP TABLE IF EXISTS passwords; 
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  username VARCHAR(50) UNIQUE NOT NULL,
+  password VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE passwords (
+  id SERIAL PRIMARY KEY,
+  user_id INTEGER NOT NULL,
+  password VARCHAR(100) NOT NULL,
+  master_password VARCHAR(100) NOT NULL,
+  FOREIGN KEY (user_id) REFERENCES users (id)
+);
+
+
